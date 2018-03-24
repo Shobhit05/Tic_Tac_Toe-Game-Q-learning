@@ -16,5 +16,5 @@ So to make the machine learn the learning algorithm in each state is defined as
 
 #### P(s)-> P(s)**(1-learning_rate) + learning_rate**P(s+1)
   
-#### Learning Rate </br>
+### Learning Rate </br>
 The learning rate or step size determines to what extent newly acquired information overrides old information. A factor of 0 makes the agent learn nothing, while a factor of 1 makes the agent consider only the most recent information.In this game I have kept the learning rate as 0.5
