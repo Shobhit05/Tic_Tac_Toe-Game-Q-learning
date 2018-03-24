@@ -2,6 +2,7 @@ import copy
 import pickle
 import random
 from game_board_functions import *
+
 def main_game():
         learning_rate=0.5
         
