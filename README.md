@@ -1,6 +1,6 @@
 # Tic Tac Toe Game Using Q-learning/Reinforcement learning
 
-Requirements:
+Requirements:</br>
   1-> Python 2.7
 
 # BackGround
