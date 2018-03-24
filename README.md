@@ -13,7 +13,7 @@ It works by learning an action-value function  Q(s,a), which ultimately gives th
 The problem space consists of an agent, a set of states "S", and a set of actions per state "A". By performing an action  "A", the agent can move from state to state. Executing an action in a specific state provides the agent with a reward. The goal of the agent is to maximize its total (future) reward. It does this by learning which action is optimal for each state. The action that is optimal for each state is the action that has the highest long-term reward.
 So to make machine learn in every state,the learning algorithm in each state is defined as 
 
-#### P(s)-> P(s)**(1-learning_rate) + learning_rate**P(s+1) </br>
+#### P(s)-> P(s)x(1-learning_rate) + learning_ratexP(s+1) </br>
 #### P(s) is the probability of state S
 #### Initially P(s) for winning state is 1,for tie state is 0.5,for loosing_state is -1
 
